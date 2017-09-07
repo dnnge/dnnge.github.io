@@ -1,0 +1,220 @@
+body {
+	margin: 0;
+	padding: 0;
+	/*禁止鼠标选中*/
+	-moz-user-select: none;
+	/*火狐*/
+	-webkit-user-select: none;
+	/*webkit浏览器*/
+	-ms-user-select: none;
+	/*IE10*/
+	-khtml-user-select: none;
+	/*早期浏览器*/
+	user-select: none;
+}
+
+div ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: skyblue;
+}
+
+* {
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link {
+	color: crimson
+}
+a:hover{
+	color:crimson;
+}
+.snow-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: 100001;
+	background-size: 100% auto;
+}
+
+.header {
+	min-width: 1100px;
+}
+
+.header {
+	height: 70px;
+	background: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	position: fixed;
+	z-index: 99999;
+	left: 0;
+	top: 0;
+}
+
+.header_left {
+	float: left;
+	margin: 5px 0 0 250px;
+}
+
+.header_right {
+	float: right;
+	margin: 25px 200px 0 0;
+}
+
+.logo {
+	border-radius: 50%;
+	border: 1px solid #fff;
+	height: 45px;
+	width: 45px;
+	transition: all 0.5s;
+}
+
+.logo:hover {
+	transform: rotate(360deg);
+}
+
+.header_nav li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.home,
+.skill,
+.experience,
+.hobby {
+	width: 100%;
+	height: 700px;
+	/*高度暂时先设置600px*/
+}
+
+.home {
+	background-image: url(../img/bg1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.skill {
+	background: aquamarine;
+}
+
+.experience {
+	background: darksalmon;
+}
+
+.hobby {
+	background: violet;
+}
+
+.max_radius {
+	width: 375px;
+	height: 375px;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: -320px;
+	border: solid 1px sandybrown;
+}
+
+.qq_card,
+.weibo_card,
+.qzone_card {
+	height: 50px;
+	width: 115px;
+	cursor: pointer;
+	border-radius: 50px;
+	background: #42C9A3;
+}
+
+.qq_card label,
+.weibo_card label,
+.qzone_card label {
+	position: relative;
+	cursor: pointer;
+	color: #fff;
+	top: -15px;
+	left: 5px;
+}
+
+.qq_card,
+.weibo_card,
+.qzone_card {
+	position: relative;
+}
+
+.qq_card {
+	top: 20px;
+	left: 10px;
+}
+
+.weibo_card {
+	background: #EAC251;
+	top: 110px;
+	left: 330px;
+}
+
+.qzone_card {
+	left: -10px;
+	top: 180px;
+	background: skyblue;
+}
+
+.icon_qq_card,
+.icon_qzone_card {
+	width: 40px;
+	margin: 5px 0 0 10px;
+}
+
+.icon_weibo_card {
+	width: 45px;
+	margin: 8px 0 0 10px;
+}
+
+.rotate_effect {
+	height: 260px;
+	width: 260px;
+	margin: 0 auto;
+	padding-top: 170px;
+}
+
+.tx_img {
+	height: 205px;
+	width: 205px;
+	border-radius: 50%;
+	position: relative;
+	top: -715px;
+	left: 28px;
+}
+
+.img_blue,
+.img_yellow,
+.img_green {
+	position: relative;
+	transition: all 0.5s;
+}
+
+.img_blue {
+	top: 10px;
+	left: 20px;
+}
+
+.img_yellow {
+	top: -225px;
+	left: 10px;
+}
+
+.img_green {
+	top: -480px;
+	left: 0px;
+}
